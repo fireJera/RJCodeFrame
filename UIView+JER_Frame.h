@@ -21,24 +21,4 @@
 @property (nonatomic, assign) CGFloat x;
 @property (nonatomic, assign) CGFloat y;
 
-//- (void)setSize:(CGSize)size;
-//- (void)setWidth:(CGFloat)width;
-//- (void)setHeight:(CGFloat)height;
-//- (void)setCenterX:(CGFloat)centerX;
-//- (void)setCenterY:(CGFloat)centerY;
-//- (void)setTop:(CGFloat)top;
-//- (void)setBottom:(CGFloat)bottom;
-//- (void)setX:(CGFloat)x;
-//- (void)setY:(CGFloat)y;
-//
-//- (CGSize)size;
-//- (CGFloat)centerX;
-//- (CGFloat)centerY;
-//- (CGFloat)width;
-//- (CGFloat)height;
-//- (CGFloat)top;
-//- (CGFloat)bottom;
-//- (CGFloat)x;
-//- (CGFloat)y;
-
 @end
