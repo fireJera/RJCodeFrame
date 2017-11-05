@@ -16,6 +16,13 @@ Champions have the courage to keep turning the pages because they know a better 
 
 相信这些代码大家都懂，都会写，而且github上也有不少可以说是一模一样的，但是我还是要写。因为我可以拿来向菜b装B啊。
 
+![file](https://raw.githubusercontent.com/Jeremy1221/Jeremy1221.github.io/master/img/JER_Frame/000100.gif)
+![file](https://raw.githubusercontent.com/Jeremy1221/Jeremy1221.github.io/master/img/JER_Frame/001000.gif)
+![file](https://raw.githubusercontent.com/Jeremy1221/Jeremy1221.github.io/master/img/JER_Frame/010000.gif)
+![file](https://raw.githubusercontent.com/Jeremy1221/Jeremy1221.github.io/master/img/JER_Frame/100000.gif)
+
+好歹这是自己正真意义上的，卧槽这是啥来着？ public source?就他了。
+
 好了，下面向菜B(不是侮辱，而是警醒)认真讲一下原理，有基础的自行跳过:
 
 首先这是一个UIView(JER_Frame)的类别，这里建议大家在创建自己的类别时都加上三个字母的前缀，当然是为了防命名冲突啊。
