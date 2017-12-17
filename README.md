@@ -1,5 +1,13 @@
 # RJViewFrame
-2017-12-17
+
+
+2017-12-17 20:00
+1.2更新:
+1.增加swift
+2.swift中增加直接修改frame的扩展.
+
+----------分割线----------
+2017-12-17 18:00
 1.1 更新：
 1.增加了left right origin设置方法 删除了x和y方法.
 并且优化了setter和getter。
@@ -33,3 +41,7 @@ Champions have the courage to keep turning the pages because they know a better 
 
 然后在类别中声明属性，这里和在类中声明属性可不一样。在类中声明属性可是会自动创建实例变量和获取方法的。而在类别中只是一个简单的属性，并没有其他任何作用，不能存储值。
 然后在类别的实现文件中实现属性的存取方法来设置UIView的frame。
+
+----------沉底----------
+
+email: r913218338@163.com
