@@ -10,94 +10,88 @@
 
 @implementation UIView (JER_Frame)
 
--(void)setSize:(CGSize)size {
+- (void)setOrigin:(CGPoint)origin {
+    CGRect frame = self.frame;
+    frame.origin = origin;
+    self.frame = frame;
+}
+
+- (void)setSize:(CGSize)size {
     CGRect frame = self.frame;
     frame.size = size;
     self.frame = frame;
 }
 
--(void)setCenterX:(CGFloat)centerX {
-    CGRect frame = self.frame;
-    frame.origin.x = centerX - frame.size.width / 2;
-    self.frame = frame;
+- (void)setCenterX:(CGFloat)centerX {
+    [self setLeft:centerX - self.width / 2];
 }
 
--(void)setCenterY:(CGFloat)centerY {
-    CGRect frame = self.frame;
-    frame.origin.y = centerY - frame.size.height / 2;
-    self.frame = frame;
+- (void)setCenterY:(CGFloat)centerY {
+    [self setTop:centerY - self.height / 2];
 }
 
 - (void)setWidth:(CGFloat)width {
-    CGRect frame = self.frame;
-    frame.size.width = width;
-    self.frame = frame;
+    [self setSize:CGSizeMake(width, self.height)];
 }
 
 - (void)setHeight:(CGFloat)height {
-    CGRect frame = self.frame;
-    frame.size.height = height;
-    self.frame = frame;
+    [self setSize:CGSizeMake(self.width, height)];
 }
 
 - (void)setTop:(CGFloat)top {
-    CGRect frame = self.frame;
-    frame.origin.y = top;
-    self.frame = frame;
+    [self setOrigin:CGPointMake(self.left, top)];
 }
 
 - (void)setBottom:(CGFloat)bottom {
-    CGRect frame = self.frame;
-    frame.origin.y = bottom - self.frame.size.height;
-    self.frame = frame;
+    [self setOrigin:CGPointMake(self.left, bottom - self.height)];
 }
 
-- (void)setX:(CGFloat)x {
-    CGRect frame = self.frame;
-    frame.origin.x = x;
-    self.frame = frame;
+- (void)setLeft:(CGFloat)left {
+    [self setOrigin:CGPointMake(left, self.top)];
 }
 
-- (void)setY:(CGFloat)y {
-    CGRect frame = self.frame;
-    frame.origin.y = y;
-    self.frame = frame;
+- (void)setRight:(CGFloat)right {
+    [self setOrigin:CGPointMake(right - self.width, self.top)];
 }
 
--(CGSize)size {
+- (CGPoint)origin {
+    return self.frame.origin;
+}
+
+- (CGSize)size {
     return self.frame.size;
 }
 
--(CGFloat)centerX {
-    return self.frame.origin.x + self.frame.size.width / 2;
+- (CGFloat)centerX {
+    return self.left + self.width / 2;
 }
 
--(CGFloat)centerY {
-    return self.frame.origin.y + self.frame.size.height / 2;
+- (CGFloat)centerY {
+    return self.top + self.height / 2;
 }
 
--(CGFloat)width {
-    return self.frame.size.width;
+- (CGFloat)width {
+    return self.size.width;
 }
 
--(CGFloat)height {
-    return self.frame.size.height;
+- (CGFloat)height {
+    return self.size.height;
 }
 
--(CGFloat)top {
-    return self.frame.origin.y;
+- (CGFloat)top {
+    return self.origin.y;
 }
 
--(CGFloat)bottom {
-    return self.frame.origin.y + self.frame.size.height;
+- (CGFloat)bottom {
+    return self.top + self.height;
 }
 
--(CGFloat)x {
-    return self.frame.origin.x;
+- (CGFloat)left {
+    return self.origin.x;
 }
 
--(CGFloat)y {
-    return self.frame.origin.y;
+- (CGFloat)right {
+    return self.left + self.width;
 }
 
 @end

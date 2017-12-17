@@ -1,13 +1,20 @@
 # RJViewFrame
+2017-12-17
+1.1 更新：
+1.增加了left right origin设置方法 删除了x和y方法.
+并且优化了setter和getter。
+增加了工程Demo，包含了测试方法。
 
-废话不多说，直接鸡(fei)汤(hua)给大家补一补。
+----------分割线----------
+
+鸡(fei)汤(hua)给大家补一补。
 
 Champions have the courage to keep turning the pages because they know a better chapter lies ahead.
 
 首先这些代码有什么用：就是方便大家设置UIView的坐标(origin)和大小（size）
 
-	view.x = 0;
-	view.y = 0;
+	view.left = 0;
+	view.top = 0;
 	view.size = CGSizeMake(100, 100);
 	view.width = 100;
 	view.height = 100;
@@ -21,11 +28,8 @@ Champions have the courage to keep turning the pages because they know a better 
 ![file](https://raw.githubusercontent.com/Jeremy1221/Jeremy1221.github.io/master/img/JER_Frame/010000.gif)
 ![file](https://raw.githubusercontent.com/Jeremy1221/Jeremy1221.github.io/master/img/JER_Frame/100000.gif)
 
-好歹这是自己正真意义上的，卧槽这是啥来着？ public source?就他了。
-
-好了，下面向菜B(不是侮辱，而是警醒)认真讲一下原理，有基础的自行跳过:
 
 首先这是一个UIView(JER_Frame)的类别，这里建议大家在创建自己的类别时都加上三个字母的前缀，当然是为了防命名冲突啊。
 
-然后在类别中声明属性，这里和在类中声明属性可不一样。在类中声明属性可是会自动创建实例变量和获取方法的(获取方法我猜的还没验证)。而在类别中只是一个简单的属性，并没有其他任何作用，不能存储值。
+然后在类别中声明属性，这里和在类中声明属性可不一样。在类中声明属性可是会自动创建实例变量和获取方法的。而在类别中只是一个简单的属性，并没有其他任何作用，不能存储值。
 然后在类别的实现文件中实现属性的存取方法来设置UIView的frame。

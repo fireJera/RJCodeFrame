@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFE915181FE673AF00640930 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE915171FE673AF00640930 /* AppDelegate.m */; };
+		BFE9151B1FE673AF00640930 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE9151A1FE673AF00640930 /* ViewController.m */; };
+		BFE9151E1FE673AF00640930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE9151C1FE673AF00640930 /* Main.storyboard */; };
+		BFE915201FE673AF00640930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE9151F1FE673AF00640930 /* Assets.xcassets */; };
+		BFE915231FE673AF00640930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE915211FE673AF00640930 /* LaunchScreen.storyboard */; };
+		BFE915261FE673AF00640930 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE915251FE673AF00640930 /* main.m */; };
+		BFE9152E1FE673CB00640930 /* UIView+JER_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE9152C1FE673CB00640930 /* UIView+JER_Frame.m */; };
+		BFE915361FE6771400640930 /* JERFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE915351FE6771400640930 /* JERFrameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFE915381FE6771400640930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE9150B1FE673AE00640930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE915121FE673AF00640930;
+			remoteInfo = JERFrame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFE915131FE673AF00640930 /* JERFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JERFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE915161FE673AF00640930 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFE915171FE673AF00640930 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFE915191FE673AF00640930 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFE9151A1FE673AF00640930 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFE9151D1FE673AF00640930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFE9151F1FE673AF00640930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFE915221FE673AF00640930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFE915241FE673AF00640930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE915251FE673AF00640930 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFE9152C1FE673CB00640930 /* UIView+JER_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JER_Frame.m"; path = "../../UIView+JER_Frame.m"; sourceTree = "<group>"; };
+		BFE9152D1FE673CB00640930 /* UIView+JER_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+JER_Frame.h"; path = "../../UIView+JER_Frame.h"; sourceTree = "<group>"; };
+		BFE915331FE6771400640930 /* JERFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JERFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE915351FE6771400640930 /* JERFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JERFrameTests.m; sourceTree = "<group>"; };
+		BFE915371FE6771400640930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE915101FE673AF00640930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE915301FE6771400640930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFE9150A1FE673AE00640930 = {
+			isa = PBXGroup;
+			children = (
+				BFE915151FE673AF00640930 /* JERFrame */,
+				BFE915341FE6771400640930 /* JERFrameTests */,
+				BFE915141FE673AF00640930 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE915141FE673AF00640930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE915131FE673AF00640930 /* JERFrame.app */,
+				BFE915331FE6771400640930 /* JERFrameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE915151FE673AF00640930 /* JERFrame */ = {
+			isa = PBXGroup;
+			children = (
+				BFE915161FE673AF00640930 /* AppDelegate.h */,
+				BFE915171FE673AF00640930 /* AppDelegate.m */,
+				BFE915191FE673AF00640930 /* ViewController.h */,
+				BFE9151A1FE673AF00640930 /* ViewController.m */,
+				BFE9152D1FE673CB00640930 /* UIView+JER_Frame.h */,
+				BFE9152C1FE673CB00640930 /* UIView+JER_Frame.m */,
+				BFE9151C1FE673AF00640930 /* Main.storyboard */,
+				BFE9151F1FE673AF00640930 /* Assets.xcassets */,
+				BFE915211FE673AF00640930 /* LaunchScreen.storyboard */,
+				BFE915241FE673AF00640930 /* Info.plist */,
+				BFE915251FE673AF00640930 /* main.m */,
+			);
+			path = JERFrame;
+			sourceTree = "<group>";
+		};
+		BFE915341FE6771400640930 /* JERFrameTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFE915351FE6771400640930 /* JERFrameTests.m */,
+				BFE915371FE6771400640930 /* Info.plist */,
+			);
+			path = JERFrameTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE915121FE673AF00640930 /* JERFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE915291FE673AF00640930 /* Build configuration list for PBXNativeTarget "JERFrame" */;
+			buildPhases = (
+				BFE9150F1FE673AF00640930 /* Sources */,
+				BFE915101FE673AF00640930 /* Frameworks */,
+				BFE915111FE673AF00640930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JERFrame;
+			productName = JERFrame;
+			productReference = BFE915131FE673AF00640930 /* JERFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFE915321FE6771400640930 /* JERFrameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE9153A1FE6771400640930 /* Build configuration list for PBXNativeTarget "JERFrameTests" */;
+			buildPhases = (
+				BFE9152F1FE6771400640930 /* Sources */,
+				BFE915301FE6771400640930 /* Frameworks */,
+				BFE915311FE6771400640930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE915391FE6771400640930 /* PBXTargetDependency */,
+			);
+			name = JERFrameTests;
+			productName = JERFrameTests;
+			productReference = BFE915331FE6771400640930 /* JERFrameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE9150B1FE673AE00640930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Jeremy;
+				TargetAttributes = {
+					BFE915121FE673AF00640930 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BFE915321FE6771400640930 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFE915121FE673AF00640930;
+					};
+				};
+			};
+			buildConfigurationList = BFE9150E1FE673AE00640930 /* Build configuration list for PBXProject "JERFrame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFE9150A1FE673AE00640930;
+			productRefGroup = BFE915141FE673AF00640930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE915121FE673AF00640930 /* JERFrame */,
+				BFE915321FE6771400640930 /* JERFrameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE915111FE673AF00640930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE915231FE673AF00640930 /* LaunchScreen.storyboard in Resources */,
+				BFE915201FE673AF00640930 /* Assets.xcassets in Resources */,
+				BFE9151E1FE673AF00640930 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE915311FE6771400640930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE9150F1FE673AF00640930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE9152E1FE673CB00640930 /* UIView+JER_Frame.m in Sources */,
+				BFE9151B1FE673AF00640930 /* ViewController.m in Sources */,
+				BFE915261FE673AF00640930 /* main.m in Sources */,
+				BFE915181FE673AF00640930 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE9152F1FE6771400640930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE915361FE6771400640930 /* JERFrameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFE915391FE6771400640930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE915121FE673AF00640930 /* JERFrame */;
+			targetProxy = BFE915381FE6771400640930 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFE9151C1FE673AF00640930 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE9151D1FE673AF00640930 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFE915211FE673AF00640930 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE915221FE673AF00640930 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFE915271FE673AF00640930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFE915281FE673AF00640930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFE9152A1FE673AF00640930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JERFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jer.JERFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFE9152B1FE673AF00640930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JERFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jer.JERFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFE9153B1FE6771400640930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JERFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jer.JERFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JERFrame.app/JERFrame";
+			};
+			name = Debug;
+		};
+		BFE9153C1FE6771400640930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JERFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jer.JERFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JERFrame.app/JERFrame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE9150E1FE673AE00640930 /* Build configuration list for PBXProject "JERFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE915271FE673AF00640930 /* Debug */,
+				BFE915281FE673AF00640930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE915291FE673AF00640930 /* Build configuration list for PBXNativeTarget "JERFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE9152A1FE673AF00640930 /* Debug */,
+				BFE9152B1FE673AF00640930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE9153A1FE6771400640930 /* Build configuration list for PBXNativeTarget "JERFrameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE9153B1FE6771400640930 /* Debug */,
+				BFE9153C1FE6771400640930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE9150B1FE673AE00640930 /* Project object */;
+}
