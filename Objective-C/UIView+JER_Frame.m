@@ -72,19 +72,23 @@
 #pragma mark - getter
 
 - (CGFloat)left {
-    return self.origin.x;
+    return CGRectGetMinX(self.frame);
+//    return self.origin.x;
 }
 
 - (CGFloat)right {
-    return self.left + self.width;
+    return CGRectGetMaxX(self.frame);
+//    return self.left + self.width;
 }
 
 - (CGFloat)top {
-    return self.origin.y;
+    return CGRectGetMinY(self.frame);
+//    return self.origin.y;
 }
 
 - (CGFloat)bottom {
-    return self.top + self.height;
+    return CGRectGetMaxY(self.frame);
+//    return self.top + self.height;
 }
 
 - (CGPoint)origin {
@@ -104,22 +108,26 @@
 }
 
 - (CGFloat)centerX {
-    return self.center.x;
+    return CGRectGetMidX(self.frame);
+//    return self.center.x;
 }
 
 - (CGFloat)centerY {
-    return self.center.y;
+    return CGRectGetMidY(self.frame);
+//    return self.center.y;
 }
 
 - (CGFloat)width {
-    return self.size.width;
+    return CGRectGetWidth(self.bounds);
+//    return self.size.width;
 }
 
 - (CGFloat)height {
-    return self.size.height;
+    return CGRectGetHeight(self.bounds);
+//    return self.size.height;
 }
 
 - (CGSize)size {
-    return self.frame.size;
+    return self.bounds.size;
 }
 @end

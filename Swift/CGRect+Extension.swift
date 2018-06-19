@@ -31,7 +31,8 @@ extension CGRect {
     
     var left: CGFloat {
         get {
-            return self.origin.x;
+            return self.minX
+//            return self.origin.x
         }
         set(newValue) {
             self.origin = CGPoint(x: newValue, y: self.top)
@@ -40,18 +41,18 @@ extension CGRect {
     
     var top: CGFloat {
         get {
-            return self.origin.y;
+            return self.minY
+//            return self.origin.y
         }
         set(newValue) {
             self.origin = CGPoint(x: self.left, y: newValue)
         }
     }
     
-    
-    
     var right: CGFloat {
         get {
-            return self.left + self.width;
+            return self.maxX
+//            return self.left + self.width
         }
         set(newValue) {
             self.origin = CGPoint(x: newValue - self.width, y: self.top)
@@ -60,7 +61,8 @@ extension CGRect {
     
     var bottom: CGFloat {
         get {
-            return self.top + self.height;
+            return self.maxY
+//            return self.top + self.height
         }
         set(newValue) {
             self.origin = CGPoint(x: self.left, y: newValue - self.height)
@@ -69,7 +71,8 @@ extension CGRect {
     
     var centerX: CGFloat {
         get {
-            return self.left + self.width / 2;
+            return self.midX
+//            return self.left + self.width / 2
         }
         set(newValue) {
             self.origin = CGPoint(x: newValue - self.width / 2, y: self.top)
@@ -78,7 +81,8 @@ extension CGRect {
     
     var centerY: CGFloat {
         get {
-            return self.bottom + self.height / 2;
+            return self.midY
+//            return self.bottom + self.height / 2
         }
         set(newValue) {
             self.origin = CGPoint(x: self.left, y: newValue - self.height / 2)

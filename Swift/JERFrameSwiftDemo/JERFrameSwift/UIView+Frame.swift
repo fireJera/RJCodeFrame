@@ -52,7 +52,8 @@ extension UIView {
     
     var left: CGFloat {
         get {
-            return self.origin.x;
+            return self.frame.minX
+//            return self.origin.x
         }
         set(newValue) {
             self.origin = CGPoint(x: newValue, y: self.top)
@@ -61,18 +62,18 @@ extension UIView {
     
     var top: CGFloat {
         get {
-            return self.origin.y;
+            return self.frame.minY
+//            return self.origin.y
         }
         set(newValue) {
             self.origin = CGPoint(x: self.left, y: newValue)
         }
     }
     
-    
-    
     var right: CGFloat {
         get {
-            return self.left + self.width;
+            return self.frame.maxX
+//            return self.left + self.width
         }
         set(newValue) {
             self.origin = CGPoint(x: newValue - self.width, y: self.top)
@@ -81,7 +82,8 @@ extension UIView {
     
     var bottom: CGFloat {
         get {
-            return self.top + self.height;
+            return self.frame.maxY
+//            return self.top + self.height
         }
         set(newValue) {
             self.origin = CGPoint(x: self.left, y: newValue - self.height)
@@ -90,7 +92,8 @@ extension UIView {
     
     var centerX: CGFloat {
         get {
-            return self.left + self.width / 2;
+            return self.frame.midX
+//            return self.left + self.width / 2
         }
         set(newValue) {
             self.origin = CGPoint(x: newValue - self.width / 2, y: self.top)
@@ -99,7 +102,8 @@ extension UIView {
     
     var centerY: CGFloat {
         get {
-            return self.bottom + self.height / 2;
+            return self.frame.midY
+//            return self.bottom + self.height / 2
         }
         set(newValue) {
             self.origin = CGPoint(x: self.left, y: newValue - self.height / 2)
