@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF22B0F720D927AF00A8F838 /* CALayer+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF22B0F620D927AF00A8F838 /* CALayer+Frame.swift */; };
 		BFE9157A1FE68C6B00640930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE915791FE68C6B00640930 /* AppDelegate.swift */; };
 		BFE9157C1FE68C6B00640930 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9157B1FE68C6B00640930 /* ViewController.swift */; };
 		BFE9157F1FE68C6B00640930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE9157D1FE68C6B00640930 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF22B0F620D927AF00A8F838 /* CALayer+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Frame.swift"; sourceTree = "<group>"; };
 		BFE915761FE68C6B00640930 /* JERFrameSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JERFrameSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE915791FE68C6B00640930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFE9157B1FE68C6B00640930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				BFE915791FE68C6B00640930 /* AppDelegate.swift */,
 				BFE9157B1FE68C6B00640930 /* ViewController.swift */,
 				BFE9159D1FE6939300640930 /* UIView+Frame.swift */,
+				BF22B0F620D927AF00A8F838 /* CALayer+Frame.swift */,
 				BFE9159B1FE691FC00640930 /* CGRect+Extension.swift */,
 				BFE9157D1FE68C6B00640930 /* Main.storyboard */,
 				BFE915801FE68C6B00640930 /* Assets.xcassets */,
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFE9157C1FE68C6B00640930 /* ViewController.swift in Sources */,
+				BF22B0F720D927AF00A8F838 /* CALayer+Frame.swift in Sources */,
 				BFE9159E1FE6939400640930 /* UIView+Frame.swift in Sources */,
 				BFE9159C1FE691FD00640930 /* CGRect+Extension.swift in Sources */,
 				BFE9157A1FE68C6B00640930 /* AppDelegate.swift in Sources */,
@@ -362,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTDW2TJS7T;
 				INFOPLIST_FILE = JERFrameSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jer.JERFrameSwift;
@@ -376,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTDW2TJS7T;
 				INFOPLIST_FILE = JERFrameSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jer.JERFrameSwift;
