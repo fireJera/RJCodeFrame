@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF382C8121A423070029E7E0 /* UIDevice+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C6921A422FB0029E7E0 /* UIDevice+JER_Custom.m */; };
+		BF382C8221A423070029E7E0 /* JERCGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C6B21A422FB0029E7E0 /* JERCGUtilities.m */; };
+		BF382C8321A423070029E7E0 /* UIBarButtonItem+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C6C21A422FB0029E7E0 /* UIBarButtonItem+JER_Custom.m */; };
+		BF382C8421A423070029E7E0 /* UIControl+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C6D21A422FB0029E7E0 /* UIControl+JER_Custom.m */; };
+		BF382C8521A423070029E7E0 /* UITableView+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C7021A422FC0029E7E0 /* UITableView+JER_Custom.m */; };
+		BF382C8621A423070029E7E0 /* UIView+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C7221A422FC0029E7E0 /* UIView+JER_Custom.m */; };
+		BF382C8721A423070029E7E0 /* UITextField+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C7321A422FC0029E7E0 /* UITextField+JER_Custom.m */; };
+		BF382C8821A423070029E7E0 /* UIGestureRecognizer+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C7421A422FD0029E7E0 /* UIGestureRecognizer+JER_Custom.m */; };
+		BF382C8921A423070029E7E0 /* UIImage+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C7521A422FD0029E7E0 /* UIImage+JER_Custom.m */; };
+		BF382C8A21A423070029E7E0 /* UIFont+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C7721A422FD0029E7E0 /* UIFont+JER_Custom.m */; };
+		BF382C8B21A423070029E7E0 /* UIScreen+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C7A21A422FF0029E7E0 /* UIScreen+JER_Custom.m */; };
+		BF382C8C21A423070029E7E0 /* UIScrollView+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C8021A423040029E7E0 /* UIScrollView+JER_Custom.m */; };
+		BF382C8F21A433220029E7E0 /* UIApplication+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C8E21A433220029E7E0 /* UIApplication+JER_Custom.m */; };
+		BF382C9221A433360029E7E0 /* UIBezierPath+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C9121A433360029E7E0 /* UIBezierPath+JER_Custom.m */; };
+		BF382C9621A436880029E7E0 /* NSFileManager+MRD_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C9521A436880029E7E0 /* NSFileManager+MRD_Custom.m */; };
+		BF382C9E21A54D030029E7E0 /* NSObject+JERModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382C9D21A54D030029E7E0 /* NSObject+JERModel.m */; };
+		BF382CA121A557A80029E7E0 /* NSArray+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382CA021A557A80029E7E0 /* NSArray+JER_Custom.m */; };
+		BF382CA421A562100029E7E0 /* NSDictionary+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382CA321A562100029E7E0 /* NSDictionary+JER_Custom.m */; };
+		BF382CA721A57ACD0029E7E0 /* NSDate+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382CA621A57ACD0029E7E0 /* NSDate+JER_Custom.m */; };
+		BF382CAA21A58F7A0029E7E0 /* NSNotificationCenter+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382CA921A58F7A0029E7E0 /* NSNotificationCenter+JER_Custom.m */; };
+		BF382CAD21A65EA00029E7E0 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382CAC21A65EA00029E7E0 /* TestObject.m */; };
+		BF382CB021A6A3190029E7E0 /* NSThread+JER_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382CAF21A6A3190029E7E0 /* NSThread+JER_Custom.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BF382CB321A6D2190029E7E0 /* JERClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BF382CB221A6D2190029E7E0 /* JERClassInfo.m */; };
+		BFB14D7C21BF526B007B211D /* JERKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB14D7B21BF526B007B211D /* JERKVStorage.m */; };
+		BFB14D7F21BF52A6007B211D /* JERDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB14D7E21BF52A6007B211D /* JERDiskCache.m */; };
+		BFB14D8221BF52B7007B211D /* JERMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB14D8121BF52B7007B211D /* JERMemoryCache.m */; };
+		BFB14D8521BF52C1007B211D /* JERCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB14D8421BF52C1007B211D /* JERCache.m */; };
 		BFE915181FE673AF00640930 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE915171FE673AF00640930 /* AppDelegate.m */; };
 		BFE9151B1FE673AF00640930 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE9151A1FE673AF00640930 /* ViewController.m */; };
 		BFE9151E1FE673AF00640930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE9151C1FE673AF00640930 /* Main.storyboard */; };
@@ -28,6 +55,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF382C6921A422FB0029E7E0 /* UIDevice+JER_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382C6A21A422FB0029E7E0 /* UIBarButtonItem+JER_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382C6B21A422FB0029E7E0 /* JERCGUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JERCGUtilities.m; sourceTree = "<group>"; };
+		BF382C6C21A422FB0029E7E0 /* UIBarButtonItem+JER_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382C6D21A422FB0029E7E0 /* UIControl+JER_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382C6E21A422FC0029E7E0 /* JERCGUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JERCGUtilities.h; sourceTree = "<group>"; };
+		BF382C6F21A422FC0029E7E0 /* UIScreen+JER_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382C7021A422FC0029E7E0 /* UITableView+JER_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382C7121A422FC0029E7E0 /* UIView+JER_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382C7221A422FC0029E7E0 /* UIView+JER_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382C7321A422FC0029E7E0 /* UITextField+JER_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382C7421A422FD0029E7E0 /* UIGestureRecognizer+JER_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382C7521A422FD0029E7E0 /* UIImage+JER_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382C7621A422FD0029E7E0 /* UITextField+JER_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382C7721A422FD0029E7E0 /* UIFont+JER_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382C7821A422FD0029E7E0 /* UIFont+JER_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382C7921A422FE0029E7E0 /* UIGestureRecognizer+JER_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382C7A21A422FF0029E7E0 /* UIScreen+JER_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382C7B21A423000029E7E0 /* UITableView+JER_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382C7C21A423010029E7E0 /* UIControl+JER_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382C7D21A423020029E7E0 /* UIDevice+JER_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382C7E21A423030029E7E0 /* UIImage+JER_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382C7F21A423030029E7E0 /* UIScrollView+JER_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382C8021A423040029E7E0 /* UIScrollView+JER_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382C8D21A433220029E7E0 /* UIApplication+JER_Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382C8E21A433220029E7E0 /* UIApplication+JER_Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382C9021A433360029E7E0 /* UIBezierPath+JER_Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382C9121A433360029E7E0 /* UIBezierPath+JER_Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382C9421A436880029E7E0 /* NSFileManager+MRD_Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+MRD_Custom.h"; sourceTree = "<group>"; };
+		BF382C9521A436880029E7E0 /* NSFileManager+MRD_Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+MRD_Custom.m"; sourceTree = "<group>"; };
+		BF382C9C21A54D030029E7E0 /* NSObject+JERModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+JERModel.h"; sourceTree = "<group>"; };
+		BF382C9D21A54D030029E7E0 /* NSObject+JERModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JERModel.m"; sourceTree = "<group>"; };
+		BF382C9F21A557A80029E7E0 /* NSArray+JER_Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382CA021A557A80029E7E0 /* NSArray+JER_Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382CA221A562100029E7E0 /* NSDictionary+JER_Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382CA321A562100029E7E0 /* NSDictionary+JER_Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382CA521A57ACD0029E7E0 /* NSDate+JER_Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382CA621A57ACD0029E7E0 /* NSDate+JER_Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382CA821A58F7A0029E7E0 /* NSNotificationCenter+JER_Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382CA921A58F7A0029E7E0 /* NSNotificationCenter+JER_Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382CAB21A65EA00029E7E0 /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		BF382CAC21A65EA00029E7E0 /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
+		BF382CAE21A6A3190029E7E0 /* NSThread+JER_Custom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSThread+JER_Custom.h"; sourceTree = "<group>"; };
+		BF382CAF21A6A3190029E7E0 /* NSThread+JER_Custom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSThread+JER_Custom.m"; sourceTree = "<group>"; };
+		BF382CB121A6D2190029E7E0 /* JERClassInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JERClassInfo.h; sourceTree = "<group>"; };
+		BF382CB221A6D2190029E7E0 /* JERClassInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JERClassInfo.m; sourceTree = "<group>"; };
+		BF42ABFB21B0E0FD004852B7 /* Example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Example.h; sourceTree = "<group>"; };
+		BFB14D7A21BF526B007B211D /* JERKVStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JERKVStorage.h; sourceTree = "<group>"; };
+		BFB14D7B21BF526B007B211D /* JERKVStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JERKVStorage.m; sourceTree = "<group>"; };
+		BFB14D7D21BF52A6007B211D /* JERDiskCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JERDiskCache.h; sourceTree = "<group>"; };
+		BFB14D7E21BF52A6007B211D /* JERDiskCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JERDiskCache.m; sourceTree = "<group>"; };
+		BFB14D8021BF52B7007B211D /* JERMemoryCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JERMemoryCache.h; sourceTree = "<group>"; };
+		BFB14D8121BF52B7007B211D /* JERMemoryCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JERMemoryCache.m; sourceTree = "<group>"; };
+		BFB14D8321BF52C1007B211D /* JERCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JERCache.h; sourceTree = "<group>"; };
+		BFB14D8421BF52C1007B211D /* JERCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JERCache.m; sourceTree = "<group>"; };
 		BFE915131FE673AF00640930 /* JERFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JERFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE915161FE673AF00640930 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFE915171FE673AF00640930 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,8 +120,8 @@
 		BFE915221FE673AF00640930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFE915241FE673AF00640930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFE915251FE673AF00640930 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BFE9152C1FE673CB00640930 /* UIView+JER_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JER_Frame.m"; path = "../../UIView+JER_Frame.m"; sourceTree = "<group>"; };
-		BFE9152D1FE673CB00640930 /* UIView+JER_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+JER_Frame.h"; path = "../../UIView+JER_Frame.h"; sourceTree = "<group>"; };
+		BFE9152C1FE673CB00640930 /* UIView+JER_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JER_Frame.m"; sourceTree = "<group>"; };
+		BFE9152D1FE673CB00640930 /* UIView+JER_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JER_Frame.h"; sourceTree = "<group>"; };
 		BFE915331FE6771400640930 /* JERFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JERFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE915351FE6771400640930 /* JERFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JERFrameTests.m; sourceTree = "<group>"; };
 		BFE915371FE6771400640930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +145,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF382C9321A436750029E7E0 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				BF382C9421A436880029E7E0 /* NSFileManager+MRD_Custom.h */,
+				BF382C9521A436880029E7E0 /* NSFileManager+MRD_Custom.m */,
+				BF382C9F21A557A80029E7E0 /* NSArray+JER_Custom.h */,
+				BF382CA021A557A80029E7E0 /* NSArray+JER_Custom.m */,
+				BF382CA221A562100029E7E0 /* NSDictionary+JER_Custom.h */,
+				BF382CA321A562100029E7E0 /* NSDictionary+JER_Custom.m */,
+				BF382CA521A57ACD0029E7E0 /* NSDate+JER_Custom.h */,
+				BF382CA621A57ACD0029E7E0 /* NSDate+JER_Custom.m */,
+				BF382CA821A58F7A0029E7E0 /* NSNotificationCenter+JER_Custom.h */,
+				BF382CA921A58F7A0029E7E0 /* NSNotificationCenter+JER_Custom.m */,
+				BF382CAE21A6A3190029E7E0 /* NSThread+JER_Custom.h */,
+				BF382CAF21A6A3190029E7E0 /* NSThread+JER_Custom.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		BF382C9721A4F1AA0029E7E0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BFE9152D1FE673CB00640930 /* UIView+JER_Frame.h */,
+				BFE9152C1FE673CB00640930 /* UIView+JER_Frame.m */,
+				BF382C6E21A422FC0029E7E0 /* JERCGUtilities.h */,
+				BF382C6B21A422FB0029E7E0 /* JERCGUtilities.m */,
+				BF382C6A21A422FB0029E7E0 /* UIBarButtonItem+JER_Custom.h */,
+				BF382C6C21A422FB0029E7E0 /* UIBarButtonItem+JER_Custom.m */,
+				BF382C7C21A423010029E7E0 /* UIControl+JER_Custom.h */,
+				BF382C6D21A422FB0029E7E0 /* UIControl+JER_Custom.m */,
+				BF382C7D21A423020029E7E0 /* UIDevice+JER_Custom.h */,
+				BF382C6921A422FB0029E7E0 /* UIDevice+JER_Custom.m */,
+				BF382C7821A422FD0029E7E0 /* UIFont+JER_Custom.h */,
+				BF382C7721A422FD0029E7E0 /* UIFont+JER_Custom.m */,
+				BF382C7921A422FE0029E7E0 /* UIGestureRecognizer+JER_Custom.h */,
+				BF382C7421A422FD0029E7E0 /* UIGestureRecognizer+JER_Custom.m */,
+				BF382C7E21A423030029E7E0 /* UIImage+JER_Custom.h */,
+				BF382C7521A422FD0029E7E0 /* UIImage+JER_Custom.m */,
+				BF382C6F21A422FC0029E7E0 /* UIScreen+JER_Custom.h */,
+				BF382C7A21A422FF0029E7E0 /* UIScreen+JER_Custom.m */,
+				BF382C7F21A423030029E7E0 /* UIScrollView+JER_Custom.h */,
+				BF382C8021A423040029E7E0 /* UIScrollView+JER_Custom.m */,
+				BF382C7B21A423000029E7E0 /* UITableView+JER_Custom.h */,
+				BF382C7021A422FC0029E7E0 /* UITableView+JER_Custom.m */,
+				BF382C7621A422FD0029E7E0 /* UITextField+JER_Custom.h */,
+				BF382C7321A422FC0029E7E0 /* UITextField+JER_Custom.m */,
+				BF382C7121A422FC0029E7E0 /* UIView+JER_Custom.h */,
+				BF382C7221A422FC0029E7E0 /* UIView+JER_Custom.m */,
+				BF382C8D21A433220029E7E0 /* UIApplication+JER_Custom.h */,
+				BF382C8E21A433220029E7E0 /* UIApplication+JER_Custom.m */,
+				BF382C9021A433360029E7E0 /* UIBezierPath+JER_Custom.h */,
+				BF382C9121A433360029E7E0 /* UIBezierPath+JER_Custom.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		BF382C9821A54C920029E7E0 /* JERModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF382C9C21A54D030029E7E0 /* NSObject+JERModel.h */,
+				BF382C9D21A54D030029E7E0 /* NSObject+JERModel.m */,
+				BF382CB121A6D2190029E7E0 /* JERClassInfo.h */,
+				BF382CB221A6D2190029E7E0 /* JERClassInfo.m */,
+				BF42ABFB21B0E0FD004852B7 /* Example.h */,
+			);
+			path = JERModel;
+			sourceTree = "<group>";
+		};
+		BFB14D7921BF5253007B211D /* JERCache */ = {
+			isa = PBXGroup;
+			children = (
+				BFB14D7A21BF526B007B211D /* JERKVStorage.h */,
+				BFB14D7B21BF526B007B211D /* JERKVStorage.m */,
+				BFB14D7D21BF52A6007B211D /* JERDiskCache.h */,
+				BFB14D7E21BF52A6007B211D /* JERDiskCache.m */,
+				BFB14D8021BF52B7007B211D /* JERMemoryCache.h */,
+				BFB14D8121BF52B7007B211D /* JERMemoryCache.m */,
+				BFB14D8321BF52C1007B211D /* JERCache.h */,
+				BFB14D8421BF52C1007B211D /* JERCache.m */,
+			);
+			path = JERCache;
+			sourceTree = "<group>";
+		};
 		BFE9150A1FE673AE00640930 = {
 			isa = PBXGroup;
 			children = (
@@ -84,12 +249,16 @@
 		BFE915151FE673AF00640930 /* JERFrame */ = {
 			isa = PBXGroup;
 			children = (
+				BFB14D7921BF5253007B211D /* JERCache */,
+				BF382C9821A54C920029E7E0 /* JERModel */,
+				BF382C9721A4F1AA0029E7E0 /* UIKit */,
+				BF382C9321A436750029E7E0 /* Foundation */,
 				BFE915161FE673AF00640930 /* AppDelegate.h */,
 				BFE915171FE673AF00640930 /* AppDelegate.m */,
 				BFE915191FE673AF00640930 /* ViewController.h */,
 				BFE9151A1FE673AF00640930 /* ViewController.m */,
-				BFE9152D1FE673CB00640930 /* UIView+JER_Frame.h */,
-				BFE9152C1FE673CB00640930 /* UIView+JER_Frame.m */,
+				BF382CAB21A65EA00029E7E0 /* TestObject.h */,
+				BF382CAC21A65EA00029E7E0 /* TestObject.m */,
 				BFE9151C1FE673AF00640930 /* Main.storyboard */,
 				BFE9151F1FE673AF00640930 /* Assets.xcassets */,
 				BFE915211FE673AF00640930 /* LaunchScreen.storyboard */,
@@ -211,9 +380,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFE9152E1FE673CB00640930 /* UIView+JER_Frame.m in Sources */,
+				BF382CB321A6D2190029E7E0 /* JERClassInfo.m in Sources */,
+				BF382CA421A562100029E7E0 /* NSDictionary+JER_Custom.m in Sources */,
 				BFE9151B1FE673AF00640930 /* ViewController.m in Sources */,
+				BF382C8C21A423070029E7E0 /* UIScrollView+JER_Custom.m in Sources */,
+				BF382CA121A557A80029E7E0 /* NSArray+JER_Custom.m in Sources */,
+				BF382C9E21A54D030029E7E0 /* NSObject+JERModel.m in Sources */,
+				BF382C8221A423070029E7E0 /* JERCGUtilities.m in Sources */,
+				BFB14D7C21BF526B007B211D /* JERKVStorage.m in Sources */,
+				BF382C8F21A433220029E7E0 /* UIApplication+JER_Custom.m in Sources */,
+				BF382C8A21A423070029E7E0 /* UIFont+JER_Custom.m in Sources */,
+				BFB14D8221BF52B7007B211D /* JERMemoryCache.m in Sources */,
+				BF382C8621A423070029E7E0 /* UIView+JER_Custom.m in Sources */,
+				BF382C8821A423070029E7E0 /* UIGestureRecognizer+JER_Custom.m in Sources */,
+				BF382C8721A423070029E7E0 /* UITextField+JER_Custom.m in Sources */,
+				BFB14D8521BF52C1007B211D /* JERCache.m in Sources */,
+				BF382CAD21A65EA00029E7E0 /* TestObject.m in Sources */,
+				BF382CAA21A58F7A0029E7E0 /* NSNotificationCenter+JER_Custom.m in Sources */,
+				BF382C8121A423070029E7E0 /* UIDevice+JER_Custom.m in Sources */,
+				BF382C8B21A423070029E7E0 /* UIScreen+JER_Custom.m in Sources */,
+				BF382C9621A436880029E7E0 /* NSFileManager+MRD_Custom.m in Sources */,
+				BF382C8521A423070029E7E0 /* UITableView+JER_Custom.m in Sources */,
+				BF382C8921A423070029E7E0 /* UIImage+JER_Custom.m in Sources */,
+				BF382CB021A6A3190029E7E0 /* NSThread+JER_Custom.m in Sources */,
+				BF382C8321A423070029E7E0 /* UIBarButtonItem+JER_Custom.m in Sources */,
 				BFE915261FE673AF00640930 /* main.m in Sources */,
+				BFB14D7F21BF52A6007B211D /* JERDiskCache.m in Sources */,
+				BF382C8421A423070029E7E0 /* UIControl+JER_Custom.m in Sources */,
+				BF382C9221A433360029E7E0 /* UIBezierPath+JER_Custom.m in Sources */,
 				BFE915181FE673AF00640930 /* AppDelegate.m in Sources */,
+				BF382CA721A57ACD0029E7E0 /* NSDate+JER_Custom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

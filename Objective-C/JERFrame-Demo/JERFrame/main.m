@@ -11,6 +11,10 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        void(^blk)(void) = ^{
+            printf("Block\n");
+        };
+        blk();
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
